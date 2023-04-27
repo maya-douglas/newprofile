@@ -28,3 +28,11 @@ setInterval(() => {
     j = 0;
   }
 }, typingSpeed);
+
+const fadeInDiv = document.querySelector('.fade-in');
+const toggleButton = document.querySelector('#toggle-button');
+
+toggleButton.addEventListener('click', () => {
+  fadeInDiv.classList.toggle('show');
+});
+
