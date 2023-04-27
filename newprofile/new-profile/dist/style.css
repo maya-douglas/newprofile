@@ -6,6 +6,15 @@
   overflow: hidden;
   width: 100%;
 }
+
+#text2 {
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+  border-right: 2px solid rgb(72, 72, 72);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
 /* Reset default browser styles */
 * {
   margin: 0;
@@ -62,9 +71,11 @@ section {
   margin-bottom: 30px;
 }
 
-section h2 {
-  font-size: 20px;
+h2 {
+  font-size: 30px;
   margin-bottom: 10px;
+  background-color: #535353;
+  color: #fff
 }
 
 section ul {

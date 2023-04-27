@@ -15,3 +15,16 @@ setInterval(() => {
     i = 0;
   }
 }, typingSpeed);
+
+const text2 = "$ About me.";
+
+const textElement2 = document.getElementById("text2");
+
+let j = 0;
+setInterval(() => {
+  textElement2.textContent = text2.slice(0, j) + "_";
+  j++;
+  if (j > text2.length) {
+    j = 0;
+  }
+}, typingSpeed);
