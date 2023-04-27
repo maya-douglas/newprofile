@@ -1,4 +1,4 @@
-const text = "$ Hello, my name is Maya. Welcome to my website. ";
+const text = "$ Hello, my name is Maya. Welcome to my website.";
 
 // Get a reference to the text element
 const textElement = document.getElementById("text");
